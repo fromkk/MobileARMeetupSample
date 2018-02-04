@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD2854D92026A1FF00DCBD4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2854D82026A1FF00DCBD4A /* ViewController.swift */; };
+		AD2854E02026A53B00DCBD4A /* PolyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2854DF2026A53B00DCBD4A /* PolyViewController.swift */; };
+		AD2854E32026A89600DCBD4A /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2854E22026A89600DCBD4A /* LoadingView.swift */; };
 		AD7055C320257B5D005642BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7055C220257B5D005642BF /* AppDelegate.swift */; };
-		AD7055C520257B5D005642BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7055C420257B5D005642BF /* ViewController.swift */; };
+		AD7055C520257B5D005642BF /* EularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7055C420257B5D005642BF /* EularViewController.swift */; };
 		AD7055C820257B5D005642BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7055C620257B5D005642BF /* Main.storyboard */; };
 		AD7055CA20257B5D005642BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD7055C920257B5D005642BF /* Assets.xcassets */; };
 		AD7055CD20257B5D005642BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7055CB20257B5D005642BF /* LaunchScreen.storyboard */; };
+		AD7055D620257B9C005642BF /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7055D520257B9C005642BF /* ARKit.framework */; };
+		AD7055D820257BA2005642BF /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7055D720257BA2005642BF /* SceneKit.framework */; };
+		AD7055DA20257BB1005642BF /* ModelIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7055D920257BB1005642BF /* ModelIO.framework */; };
+		AD7055DD20257D15005642BF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7055DC20257D15005642BF /* Constants.swift */; };
+		AD7055DF20257DAE005642BF /* PolyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7055DE20257DAE005642BF /* PolyKit.framework */; };
+		AD7055E220258194005642BF /* BinaryFloatingPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7055E120258194005642BF /* BinaryFloatingPoint+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD2854D82026A1FF00DCBD4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD2854DF2026A53B00DCBD4A /* PolyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyViewController.swift; sourceTree = "<group>"; };
+		AD2854E22026A89600DCBD4A /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		AD7055BF20257B5D005642BF /* ARKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD7055C220257B5D005642BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AD7055C420257B5D005642BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD7055C420257B5D005642BF /* EularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EularViewController.swift; sourceTree = "<group>"; };
 		AD7055C720257B5D005642BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD7055C920257B5D005642BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD7055CC20257B5D005642BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD7055CE20257B5D005642BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7055D520257B9C005642BF /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		AD7055D720257BA2005642BF /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		AD7055D920257BB1005642BF /* ModelIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ModelIO.framework; path = System/Library/Frameworks/ModelIO.framework; sourceTree = SDKROOT; };
+		AD7055DC20257D15005642BF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AD7055DE20257DAE005642BF /* PolyKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PolyKit.framework; path = Carthage/Build/iOS/PolyKit.framework; sourceTree = "<group>"; };
+		AD7055E120258194005642BF /* BinaryFloatingPoint+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BinaryFloatingPoint+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD7055DF20257DAE005642BF /* PolyKit.framework in Frameworks */,
+				AD7055DA20257BB1005642BF /* ModelIO.framework in Frameworks */,
+				AD7055D820257BA2005642BF /* SceneKit.framework in Frameworks */,
+				AD7055D620257B9C005642BF /* ARKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD2854DA2026A31B00DCBD4A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AD2854D82026A1FF00DCBD4A /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AD2854DB2026A32A00DCBD4A /* EularViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AD7055C420257B5D005642BF /* EularViewController.swift */,
+			);
+			path = EularViewController;
+			sourceTree = "<group>";
+		};
+		AD2854DC2026A33700DCBD4A /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				AD7055DC20257D15005642BF /* Constants.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		AD2854DE2026A52800DCBD4A /* Poly */ = {
+			isa = PBXGroup;
+			children = (
+				AD2854DF2026A53B00DCBD4A /* PolyViewController.swift */,
+			);
+			path = Poly;
+			sourceTree = "<group>";
+		};
+		AD2854E12026A80900DCBD4A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AD2854E22026A89600DCBD4A /* LoadingView.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		AD7055B620257B5C005642BF = {
 			isa = PBXGroup;
 			children = (
 				AD7055C120257B5D005642BF /* ARKitSample */,
 				AD7055C020257B5D005642BF /* Products */,
+				AD7055D420257B9C005642BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +117,38 @@
 		AD7055C120257B5D005642BF /* ARKitSample */ = {
 			isa = PBXGroup;
 			children = (
+				AD2854E12026A80900DCBD4A /* Utilities */,
+				AD2854DC2026A33700DCBD4A /* Support */,
+				AD7055E0202580A3005642BF /* Extensions */,
+				AD2854DA2026A31B00DCBD4A /* ViewController */,
+				AD2854DB2026A32A00DCBD4A /* EularViewController */,
+				AD2854DE2026A52800DCBD4A /* Poly */,
 				AD7055C220257B5D005642BF /* AppDelegate.swift */,
-				AD7055C420257B5D005642BF /* ViewController.swift */,
 				AD7055C620257B5D005642BF /* Main.storyboard */,
 				AD7055C920257B5D005642BF /* Assets.xcassets */,
 				AD7055CB20257B5D005642BF /* LaunchScreen.storyboard */,
 				AD7055CE20257B5D005642BF /* Info.plist */,
 			);
 			path = ARKitSample;
+			sourceTree = "<group>";
+		};
+		AD7055D420257B9C005642BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD7055DE20257DAE005642BF /* PolyKit.framework */,
+				AD7055D920257BB1005642BF /* ModelIO.framework */,
+				AD7055D720257BA2005642BF /* SceneKit.framework */,
+				AD7055D520257B9C005642BF /* ARKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD7055E0202580A3005642BF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AD7055E120258194005642BF /* BinaryFloatingPoint+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +161,7 @@
 				AD7055BB20257B5D005642BF /* Sources */,
 				AD7055BC20257B5D005642BF /* Frameworks */,
 				AD7055BD20257B5D005642BF /* Resources */,
+				AD7055DB20257C2D005642BF /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -131,13 +219,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AD7055DB20257C2D005642BF /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/PolyKit.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD7055BB20257B5D005642BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD7055C520257B5D005642BF /* ViewController.swift in Sources */,
+				AD2854D92026A1FF00DCBD4A /* ViewController.swift in Sources */,
+				AD7055C520257B5D005642BF /* EularViewController.swift in Sources */,
+				AD7055E220258194005642BF /* BinaryFloatingPoint+Extensions.swift in Sources */,
 				AD7055C320257B5D005642BF /* AppDelegate.swift in Sources */,
+				AD2854E02026A53B00DCBD4A /* PolyViewController.swift in Sources */,
+				AD2854E32026A89600DCBD4A /* LoadingView.swift in Sources */,
+				AD7055DD20257D15005642BF /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +387,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XE9C97EHP4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ARKitSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.tfam.ARKitSample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,7 +407,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XE9C97EHP4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ARKitSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.tfam.ARKitSample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
