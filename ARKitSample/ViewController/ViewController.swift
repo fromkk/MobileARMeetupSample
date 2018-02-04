@@ -52,7 +52,7 @@ extension ViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return 3
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -63,6 +63,8 @@ extension ViewController: UITableViewDataSource {
             cell.textLabel?.text = "Eular"
         case 1:
             cell.textLabel?.text = "Poly"
+        case 2:
+            cell.textLabel?.text = "ReplayKit"
         default:
             cell.textLabel?.text = nil
             break
@@ -87,6 +89,9 @@ extension ViewController: UITableViewDelegate {
         case 1:
             let polyViewController = PolyViewController()
             navigationController?.pushViewController(polyViewController, animated: true)
+        case 2:
+            let replayKitViewController = ReplayKitViewController()
+            navigationController?.pushViewController(replayKitViewController, animated: true)
         default:
             break
         }

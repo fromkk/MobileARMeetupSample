@@ -21,6 +21,9 @@
 		AD7055DD20257D15005642BF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7055DC20257D15005642BF /* Constants.swift */; };
 		AD7055DF20257DAE005642BF /* PolyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7055DE20257DAE005642BF /* PolyKit.framework */; };
 		AD7055E220258194005642BF /* BinaryFloatingPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7055E120258194005642BF /* BinaryFloatingPoint+Extensions.swift */; };
+		ADF5AF6D202747D40057906A /* ReplayKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF5AF6C202747D40057906A /* ReplayKitViewController.swift */; };
+		ADF5AF6F202747DD0057906A /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF5AF6E202747DD0057906A /* ReplayKit.framework */; };
+		ADF5AF7120274E540057906A /* RecordWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF5AF7020274E540057906A /* RecordWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		AD7055DC20257D15005642BF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		AD7055DE20257DAE005642BF /* PolyKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PolyKit.framework; path = Carthage/Build/iOS/PolyKit.framework; sourceTree = "<group>"; };
 		AD7055E120258194005642BF /* BinaryFloatingPoint+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BinaryFloatingPoint+Extensions.swift"; sourceTree = "<group>"; };
+		ADF5AF6C202747D40057906A /* ReplayKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplayKitViewController.swift; sourceTree = "<group>"; };
+		ADF5AF6E202747DD0057906A /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		ADF5AF7020274E540057906A /* RecordWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF5AF6F202747DD0057906A /* ReplayKit.framework in Frameworks */,
 				AD7055DF20257DAE005642BF /* PolyKit.framework in Frameworks */,
 				AD7055DA20257BB1005642BF /* ModelIO.framework in Frameworks */,
 				AD7055D820257BA2005642BF /* SceneKit.framework in Frameworks */,
@@ -93,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				AD2854E22026A89600DCBD4A /* LoadingView.swift */,
+				ADF5AF7020274E540057906A /* RecordWindow.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -123,6 +131,7 @@
 				AD2854DA2026A31B00DCBD4A /* ViewController */,
 				AD2854DB2026A32A00DCBD4A /* EularViewController */,
 				AD2854DE2026A52800DCBD4A /* Poly */,
+				ADF5AF6B202747BF0057906A /* ReplayKit */,
 				AD7055C220257B5D005642BF /* AppDelegate.swift */,
 				AD7055C620257B5D005642BF /* Main.storyboard */,
 				AD7055C920257B5D005642BF /* Assets.xcassets */,
@@ -135,6 +144,7 @@
 		AD7055D420257B9C005642BF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ADF5AF6E202747DD0057906A /* ReplayKit.framework */,
 				AD7055DE20257DAE005642BF /* PolyKit.framework */,
 				AD7055D920257BB1005642BF /* ModelIO.framework */,
 				AD7055D720257BA2005642BF /* SceneKit.framework */,
@@ -149,6 +159,14 @@
 				AD7055E120258194005642BF /* BinaryFloatingPoint+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ADF5AF6B202747BF0057906A /* ReplayKit */ = {
+			isa = PBXGroup;
+			children = (
+				ADF5AF6C202747D40057906A /* ReplayKitViewController.swift */,
+			);
+			path = ReplayKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +264,11 @@
 				AD7055C520257B5D005642BF /* EularViewController.swift in Sources */,
 				AD7055E220258194005642BF /* BinaryFloatingPoint+Extensions.swift in Sources */,
 				AD7055C320257B5D005642BF /* AppDelegate.swift in Sources */,
+				ADF5AF6D202747D40057906A /* ReplayKitViewController.swift in Sources */,
 				AD2854E02026A53B00DCBD4A /* PolyViewController.swift in Sources */,
 				AD2854E32026A89600DCBD4A /* LoadingView.swift in Sources */,
 				AD7055DD20257D15005642BF /* Constants.swift in Sources */,
+				ADF5AF7120274E540057906A /* RecordWindow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
